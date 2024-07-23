@@ -12,6 +12,7 @@ on:
   pull_request:
     branches: [ "master" ]
 
+
 env:
   # Path to the solution file relative to the root of the project.
   SOLUTION_FILE_PATH: .
@@ -22,7 +23,7 @@ env:
   BUILD_CONFIGURATION: Release
 
 permissions:
-  contents: read
+  contents: read write
 
 jobs:
   build:
